@@ -1,7 +1,7 @@
 #!/bin/bash
 
 aws cloudformation deploy \
-    --region eu-west-1 \
+    --region us-west-2 \
     --stack-name teamspeak-server \
     --capabilities CAPABILITY_NAMED_IAM \
     --template-file ./infra.yml \
